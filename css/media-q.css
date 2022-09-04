@@ -1,0 +1,534 @@
+@media (max-width: 1024px) {
+    
+    .navbar .logo {
+        width: 90px;
+        margin-left: 0px;
+    }
+    nav ul {
+        float: right;
+        margin-right: 50px;
+    }
+    nav ul li {
+        margin: 10px 0;
+    }
+    nav ul li a {
+        padding: 0 18px;
+    }
+}
+@media (max-width: 850px){
+    nav ul {
+        float: right;
+        margin-right: 00px;
+    }
+	.copy{
+		font-size: 18px;
+	}
+}
+
+
+
+@media(max-width: 767px){
+	
+	
+	nav{
+		position: fixed;
+		background: #f44336;
+		width: 100%;
+		height: 100vh;
+		top: 70px;
+		right: 100%;
+		z-index: 2;
+		transition: 1s;
+	}
+	
+	nav ul{
+		position: absolute;
+		top: 40%;
+		transform: translateY(-50%);
+	}
+	nav ul li{
+		width: 100%;
+		text-align: center;
+		margin: 10px 0;
+	}
+	nav ul li a{
+		font-size: 40px;
+		font-weight: 600;
+		transition: 0.5s;
+	}
+	nav ul li a:hover{
+		color: rgb(201, 201, 201);
+	}
+	.fa-bars,
+	.fa-times{
+    position: absolute;
+    right: 0;
+    padding: 18px 30px 0 0;
+    font-size: 30px;
+    color: #fff;
+	}
+	.fa-times{
+		font-size: 0;
+		z-index: 99;
+	}
+	.home .home-text h1 {
+		font-size: 65px;
+	}
+	.home .home-text p {
+		font-size: 20px;
+		margin-bottom: 25px;
+		letter-spacing: 2px;
+	}
+	.home .home-text a {
+		font-size: 20px;
+		padding: 8px 30px;
+	}
+	.about .cards{
+		flex-direction: column;
+	}
+	.about .cards .card{
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.about .cards .card img {
+		height: 400px;
+	}
+	.pricing .cards{
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+	}
+	.pricing .cards .card{
+		width: 70%;
+		margin: 20px 0;
+	}
+	.danc-main img{
+		height: 500px;
+	}
+	.danc-main .ama-text,
+	.danc-main .best-text{
+		height: 500px;
+	}
+	.amazing-danc .ama-text h1, .best-danc .best-text h1 {
+		font-size: 36px;
+	}
+	.amazing-danc .ama-text P, .best-danc .best-text P {
+		font-size: 20px;
+		margin: 15px 0 30px 0;
+	}
+	.danc-main .amazing-danc a, .danc-main .best-danc a {
+		font-size: 18px;
+		padding: 10px 40px;
+	}
+	.statistics .about-text .text h1 {
+		font-size: 42px;
+		padding-top: 0px;
+	}
+	.statistics .about-text .text p {
+		font-size: 18px;
+		margin-top: 15px;
+	}
+	.statistics .cards {
+		padding: 55px 0;
+	}
+	.statistics .cards .card h3 {
+		font-size: 40px;
+	}
+	.statistics .cards .card p {
+		font-size: 24px;
+	}
+	section.simon {
+		height: 550px;
+	}
+	.simon .about-text .text p {
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 20px;
+	}
+	.simon .about-text .text h1 {
+		font-size: 40px;
+	}
+	.subcribe .about-text .text h1 {
+		font-size: 40px;
+		margin-bottom: 15px;
+	}
+	.subcribe .about-text .text p {
+		font-size: 25px;
+	}
+	section.about {
+		background-size: 500px;
+	}
+	section.danc-main {
+		background-position: 100% -520px;
+		background-size: 500px;
+	}
+	.danc-main .amazing-danc {
+		background-size: 500px;
+	}
+	.danc-main .best-danc {
+		background-size: 500px;
+	}
+	section.subcribe {
+		background-size: 400px,400px;
+	}
+	section.pricing {
+		background-size: 500px;
+		background-position: 0% 0%, 100% 130%;
+	}
+	/* section.danc-main {
+		width: 100%;
+		background: url(../images/back-dot-12.png);
+		background-repeat: no-repeat;
+		background-position: 100% -55%;
+		background-size: 600px;
+		font-family: 'Roboto', sans-serif;
+	} */
+	footer {
+		padding: 60px 40px 40px;
+		background: #303030;
+	}
+	footer .fst-box{
+		width: calc(40%);
+	}
+	footer .snd-box{
+		width: calc(60%);
+	}
+	footer .fst-box h3, footer .snd-box h3 {
+		font-size: 18px;
+		padding-bottom: 16px;
+	}
+	footer .fst-box p {
+		width: 80%;
+		font-size: 17px;
+		padding-bottom: 18px;
+	}
+	footer .snd-box ul li {
+		font-size: 15px;
+		margin-bottom: 8px;
+	}
+	footer .fst-box .media-icon i {
+		padding: 8px;
+		margin-right: 8px;
+	}
+	.copy{
+		font-size: 17px;
+	}
+}
+
+@media (max-width:615px) {
+	i.fa-bars, i.fa-times {
+		font-size: 24px;
+	}
+	nav ul li {
+		margin: 8px 0;
+	}
+	nav ul li a {
+		font-size: 35px;
+	}
+	.home .home-text {
+		margin-left: 60px;
+	}
+	.home .home-text h1 {
+		font-size: 60px;
+	}
+	.home .home-text p {
+		font-size: 20px;
+		letter-spacing: 1px;
+	}
+	.home .home-text a {
+		font-size: 18px;
+		padding: 8px 25px;
+	}
+	.about .about-text .text h1 {
+		font-size: 40px;
+		padding-top: 0;
+	}
+	.about .about-text .text p {
+		font-size: 18px;
+		margin-top: 10px;
+	}
+	.about .cards {
+		padding: 50px 0;
+	}
+	.pricing .about-text {
+		padding-top: 30px;
+	}
+	.pricing .about-text .text h1 {
+		font-size: 40px;
+		padding-top: 5px;
+	}
+	.pricing .about-text .text p {
+		font-size: 20px;
+		margin-top: 10px;
+	}
+	.pricing .cards {
+		padding: 40px 0;
+	}
+	.pricing .cards .card img {
+		height: 150px;
+		margin-bottom: 5px;
+	}
+	.pricing .cards .card h3 {
+		font-size: 24px;
+		padding: 0px 0;
+	}
+	.pricing .cards .card button {
+		width: 80%;
+		font-size: 22px;
+		margin: 7px 6% 15px;
+		padding: 10px 0;
+	}
+	.amazing-danc .ama-text h1, .best-danc .best-text h1 {
+		font-size: 30px;
+	}
+	.amazing-danc .ama-text P, .best-danc .best-text P {
+		font-size: 18px;
+		margin: 10px 0 25px 0;
+	}
+	.danc-main .amazing-danc a, .danc-main .best-danc a {
+		font-size: 16px;
+		padding: 8px 30px;
+	}
+	.danc-main img{
+		height: 400px;
+	}
+	.danc-main .ama-text,
+	.danc-main .best-text{
+		height: 400px;
+	}
+	.danc-main .amazing-danc .ama-text .text, .danc-main .best-danc .best-text .text {
+		margin-left: 0px;
+	}
+	.statistics .about-text .text {
+		width: 100%;
+		margin-top: 50px;
+	}
+	.statistics .about-text .text h1 {
+		font-size: 30px;
+		padding-top: 0px;
+	}
+	.statistics .about-text .text p {
+		font-size: 16px;
+		margin-top: 10px;
+	}
+	.statistics .cards {
+		padding: 30px 0;
+		width: 90%;
+	}
+	.statistics .cards .card h3 {
+		font-size: 30px;
+	}
+	.statistics .cards .card p {
+		font-size: 18px;
+	}
+	section.simon {
+		height: 500px;
+	}
+	.simon .about-text .text p {
+		font-size: 24px;
+		margin-bottom: 15px;
+	}
+	.simon .about-text .text h1 {
+		font-size: 35px;
+	}
+	.subcribe .about-text .text h1 {
+		font-size: 30px;
+		margin-bottom: 10px;
+	}
+	.subcribe .about-text .text {
+		width: 70%;
+	}
+	.subcribe .about-text .text p {
+		font-size: 20px;
+	}
+	.subcribe .about-text .input-fild {
+		width: 60%;
+		margin-top: 30px;
+	}
+	.subcribe .about-text .input-fild input {
+		height: 40px;
+	}
+	.subcribe .about-text .input-fild button {
+		height: 41px;
+		font-size: 15px;
+	}
+	section.subcribe {
+		height: 360px;
+	}
+	footer {
+		padding: 20px 20px 30px;
+	}
+
+
+
+	section.about {
+		background-size: 400px;
+	}
+	section.danc-main {
+		background-position: 100% -420px;
+		background-size: 400px;
+	}
+	.danc-main .amazing-danc {
+		background-size: 400px;
+	}
+	.danc-main .best-danc {
+		background-size: 400px;
+	}
+	section.subcribe {
+		background-size: 400px,400px;
+	}
+	section.pricing {
+		background-size: 400px;
+		background-position: 0% 0%, 100% 130%;
+	}
+	.copy{
+		font-size: 16px;
+	}
+
+}
+
+@media (max-width:425px) {
+	.home .home-text {
+		margin-left: 20px;
+	}
+	.home .home-text h1 {
+		font-size: 40px;
+	}
+	.home .home-text p {
+		font-size: 18px;
+		letter-spacing: 1px;
+	}
+	.home .home-text a {
+		font-size: 16px;
+		padding: 8px 20px;
+	}
+	.about .about-text .text h1 {
+		font-size: 30px;
+		padding-top: 0;
+	}
+	.about .about-text .text p {
+		font-size: 16px;
+		margin-top: 5px;
+	}
+	.about .cards {
+		padding: 30px 0;
+	}
+	.about .cards .card img {
+		height: 350px;
+	}
+	.about .cards .card h3 {
+		font-size: 22px;
+		padding: 5px 0;
+	}
+	.about .cards .card p {
+		font-size: 16px;
+		padding-bottom: 20px;
+	}
+	.pricing .about-text .text h1 {
+		font-size: 30px;
+		padding-top: 0px;
+	}
+	.pricing .about-text .text p {
+		font-size: 16px;
+		margin-top: 5px;
+	}
+	.pricing .cards {
+		padding: 20px 0;
+	}
+	.pricing .cards .card img {
+		height: 130px;
+		margin-bottom: 0px;
+	}
+	.pricing .cards .card h3 {
+		font-size: 22px;
+	}
+	.pricing .cards .card p {
+		font-size: 16px;
+		word-spacing: 1px;
+		padding: 5px;
+	}
+	.pricing .cards .card button {
+		font-size: 18px;
+		padding: 8px 0;
+	}
+	
+	.danc-main img{
+		height: 350px;
+	}
+	.danc-main .ama-text,
+	.danc-main .best-text{
+		height: 350px;
+	}
+	.amazing-danc .ama-text h1, .best-danc .best-text h1 {
+		font-size: 24px;
+	}
+	.amazing-danc .ama-text P, .best-danc .best-text P {
+		font-size: 16px;
+		margin: 8px 0 20px 0;
+	}
+	.danc-main .amazing-danc a, .danc-main .best-danc a {
+		font-size: 14px;
+		padding: 8px 22px;
+	}
+	.statistics .about-text .text {
+		margin-top: 30px;
+	}
+	.statistics .about-text .text h1 {
+		font-size: 25px;
+	}
+	.statistics .cards {
+		padding: 20px 0;
+	}
+	.statistics .cards .card h3 {
+		font-size: 24px;
+	}
+	.statistics .cards .card p {
+		font-size: 14px;
+	}
+	section.simon {
+		height: 350px;
+	}
+	.subcribe .about-text .text {
+		width: 80%;
+	}
+	.simon .about-text .text p {
+		font-size: 20px;
+		margin-bottom: 10px;
+	}
+	.simon .about-text .text h1 {
+		font-size: 30px;
+	}
+	section.subcribe {
+		height: 300px;
+	}
+	.subcribe .about-text .text h1 {
+		font-size: 30px;
+		margin-bottom: 8px;
+	}
+	.subcribe .about-text .text p {
+		font-size: 18px;
+	}
+	.subcribe .about-text .input-fild {
+		margin-top: 20px;
+	}
+	.subcribe .about-text .input-fild button {
+		height: 41px;
+		font-size: 12px;
+	}
+	footer{
+		flex-direction: column;
+	}
+	footer .fst-box {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	footer .snd-box {
+		width: 100%;
+	}
+	.copy{
+		font-size: 14px;
+	}
+}
+
+
+
